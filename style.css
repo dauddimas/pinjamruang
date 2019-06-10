@@ -1,0 +1,509 @@
+/* global settings */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700&display=swap');
+
+html h1, h2, h3, h4, h5, h6, p, label, a, li, table td, input[type="text"], input[type="submit"], input[type="password"] {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+}
+
+table th {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background-color: #daebf1;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+.desc {
+  font-size: 1.25rem;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+
+
+    /* navbar */
+    .navbar {
+      margin: 0 px;
+      width: 100%;
+      border-radius: 0;
+      border: 0px;
+      position: fixed;
+      z-index: 10;
+      background-color: #254d8d;
+    }
+
+    .navbar li a {
+      color: #FFFFFF;
+    }
+
+    .navbar li a:hover {
+      background-color: #86a8df;
+    }
+
+    /*.active {
+      background-color: #366ec9 !important;
+    }*/
+
+    #menu {
+      background-color: #254d8d;
+    }
+
+    /*#menu:hover {
+      background-color: #86a8df;
+    }
+
+    #menu:focus {
+      background-color: #366ec9;      
+    }*/
+
+    #drop1 {
+      background-color: #254d8d;
+      border-radius: 0;
+    }
+    
+    #drop1 li {
+      background-color: #254d8d;
+    }
+
+    #drop1 a {
+      color: #FFFFFF;
+    }
+
+    /*#drop1 li a:hover {
+      background-color: #86a8df;
+    }*/
+
+    .icon-bar {
+      background-color: #FFFFFF;
+    }
+
+    #menu, #logout {
+      display: inline-block;
+    }
+
+
+
+/* input
+input[type="text"] {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  margin: 0.5rem 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  box-sizing: border-box;
+}*/
+
+.form-control {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: auto;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* table */
+.table {
+  background-color: white;
+}
+
+thead > tr {
+  background-color: #c0c0c0;
+}
+
+
+
+
+
+/* card view */
+.card-view {
+  width: 90%;
+  height: auto;
+  border: 1px solid #cccccc;
+  margin: 5% 0;
+}
+
+.card-view img {
+  width: 100%;
+  height: auto;
+}
+
+.card-view p {
+  padding-left: 20%;
+}
+
+.sidepad {
+  width: 12.5%;
+  height: auto;
+}
+
+
+
+  /* modal */
+  #myModal {
+    position: fixed;
+    height: 100%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .modal-header {
+    border-bottom: 2px solid #cccccc;
+  }
+
+  .modal-content {
+    border-radius: 0;
+    background-color: #daebf1;
+  }
+
+  .modal-footer {
+    border-top: 0;
+  }
+
+  .modalfoot {
+    border-top: 2px solid #cccccc;
+  }
+
+  .modal button {
+    display: inline-block;
+    border-radius: 0;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    margin: 0 0.5rem 0 0.5rem;
+  }
+
+  .btn-pjm {
+    background-color: #4d6db1;
+    color: #FFFFFF;
+    padding: 1rem 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .btn-pjm:hover {
+    opacity: 0.8;
+    color: #FFFFFF;
+  }
+
+  .btnacc {
+    background-color: #4CAF50;
+    width: 25%;
+    height: auto;
+    color: #FFFFFF;
+    padding: 1.5rem 1.0rem;
+  }
+
+  .btnact {
+    background-color: #4CAF50;
+    width: 20%;
+    height: 5rem;
+    color: #FFFFFF;
+    margin-left: 25%;
+    margin-right: 5%;
+  }
+
+  .btndec {
+    float: right;
+    background-color: #f44336;
+    width: 20%;
+    height: 5rem;
+    color: #FFFFFF;
+    margin-left: 5%;
+    margin-right: 25%;
+  }
+
+  .btnacc:hover {
+    opacity: 0.8;
+    color: #FFFFFF;
+  }
+
+  .btnact:hover {
+    opacity: 0.8;
+    color: #FFFFFF;
+  }
+
+  .btndec:hover {
+    background-color: #f66055;
+    color: #FFFFFF;
+  }
+
+
+
+    /* button */
+    #btn1 {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.25rem 1.5rem;
+      border: none;
+      cursor: pointer;
+      width: 45%;
+      float: left;
+    }
+
+    #btn2 {
+      background-color: #f44336;
+      color: white;
+      padding: 1.25rem 1.5rem;
+      border: none;
+      cursor: pointer;
+      width: 45%;
+      float: right;
+    }
+
+    #btn1:hover {
+      opacity: 0.8;
+    }
+
+    #btn2:hover {
+      opacity: 0.8;
+    }
+
+    .backbutton1 {
+      padding: 1.25rem 1.5rem;
+      color: white;
+      background-color: #00326e;
+    }
+
+    .backbutton2 {
+      padding: 1.25rem 1.5rem;
+      color: white;
+      background-color: #254d8d;
+    }
+
+    .backbutton1:hover {
+      opacity: 0.8;
+      color: white;
+    }
+
+    .backbutton2:hover {
+      opacity: 0.8;
+      color: white;
+    }
+
+    #btnsearch {
+      display: block;
+      padding: 1.25rem 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0;
+      background-color: #FFFFFF;
+      float: left;
+      height: auto;
+    }
+
+    #btnpen1, #btnpen2 {
+      color: white;
+      border: none;
+      width: 100%;
+      padding: 15% 0%;
+      display: block;
+    }
+
+    #btnpen1 {
+      background-color: #4CAF50;
+      margin-bottom: 10%;
+    }
+
+    #btnpen2 {
+      background-color: #f44336;
+      margin-top: 10%;
+    }
+
+    .calicon {
+      border-radius: 0;
+    }
+
+    .glyphicon-calendar {
+      height: 50%;
+    }
+        
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+     
+  .dropdown {
+    position: static;
+  }
+
+  nav ul li {
+    float: none;
+  }
+
+  nav ul li a {
+    width: 100%;
+  }
+
+  #drop1 {
+    background-color: #254d8d;
+  }
+
+  #drop1 li {
+    padding: 0% 0% 0% 7.5%;
+    width: 100%;
+    font-size: 0.9em;
+    background-color: #254d8d;
+  }
+
+  #drop1 li a {
+    border-left: 5px solid #FFFFFF;
+    padding: 2.5%;
+  }
+
+  #drop1 li a:focus {
+    border-left: 5px solid #818d25;
+  }
+
+  .dropactive {
+    border-left: 5px solid #818d25 !important;
+  }
+
+  hr {
+    display: none;
+  }
+
+  #btn1, #btn2 {
+    display: block;
+    float: center;
+    width: 100%;
+    margin: 5px auto;
+  }
+
+  .backbutton1 {
+    display: none;
+  }
+
+  .modal button {
+    display: block;
+    margin: 10px auto;
+  }
+
+  #confirmModal {
+    height: auto;
+    width: 100%;
+  }
+
+  #formModal {
+    height: 100%;
+    width: 100%;
+  }
+
+  #btnsearch {
+    width: 25%;
+  }
+
+}
+
+
+
+    @media screen and (min-width: 768px) {
+
+      hr {
+        border-color: #FFFFFF;
+        width: 85%;
+        margin: 2% 5% 5% 10%;
+        opacity: 0.6;
+      }
+
+      .navbar-right li {
+        margin: 0px 0px;
+      }
+
+      #drop1 li a {
+        font-size: 1em;
+      }
+
+      #drop1 {
+        padding: 3.5% 0 0% 0;
+        width: 120%;
+      }
+
+      .dropactive {
+        border-left: 10px solid #FFFFFF !important;
+        background-color: #366ec9 !important;
+      }
+
+      #men {
+        border-left: 10px solid #254d8d;
+        padding: 6% 0% 7.5% 7.5%;
+        width: 100%;
+      }
+
+      #fas, #pen, #jad {
+        border-left: 10px solid #254d8d;
+        padding: 4.5% 0% 5.5% 15%;
+        width: 100%;
+      }
+
+      #men:hover {
+        background-color: #86a8df;
+        border-left: 10px solid #86a8df;
+      }
+
+      #fas:hover {
+        background-color: #86a8df;
+        border-left: 10px solid #86a8df;
+      }
+
+      #pen:hover {
+        background-color: #86a8df;
+        border-left: 10px solid #86a8df;
+      }
+
+      #jad:hover {
+        background-color: #86a8df;
+        border-left: 10px solid #86a8df;
+      }
+
+      #men:focus {
+        background-color: #86a8df;
+        border-left: 10px solid #FFFFFF;
+      }
+
+      #fas:focus {
+        background-color: #86a8df;
+        border-left: 10px solid #FFFFFF;
+      }
+
+      #pen:focus {
+        background-color: #86a8df;
+        border-left: 10px solid #FFFFFF;
+      }
+
+      #jad:focus {
+        background-color: #86a8df;
+        border-left: 10px solid #FFFFFF;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+        margin-right: -1px;
+      }
+
+      .backbutton2 {
+        display: none;
+      }
+
+      #btnsearch {
+        width: 10%;
+      }
+
+    }
